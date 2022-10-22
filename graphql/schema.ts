@@ -1,7 +1,13 @@
-import { gql } from "apollo-server-micro";
+import { gql, Config } from "apollo-server-micro";
 
-const typeDefs = gql`
-  type Query {
-    message: string;
+export const typeDefs: Config["typeDefs"] = gql`
+  type Task {
+    id: Int
+    title: String
+    done: Boolean
   }
-`
+
+  type Query {
+    tasks: [Task]!
+  }
+`;
