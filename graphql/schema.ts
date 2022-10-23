@@ -9,5 +9,6 @@ export const typeDefs: Config["typeDefs"] = gql`
 
   type Query {
     tasks: [Task]!
+    task(id: Int): Task
   }
 `;
