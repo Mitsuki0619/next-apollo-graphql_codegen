@@ -19,7 +19,6 @@ export type Query = {
   tasks: Array<Maybe<Task>>;
 };
 
-
 export type QueryTaskArgs = {
   id?: InputMaybe<Scalars['Int']>;
 };
