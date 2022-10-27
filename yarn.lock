@@ -762,17 +762,6 @@
     auto-bind "~4.0.0"
     tslib "~2.4.0"
 
-"@graphql-codegen/typescript-react-apollo@^3.3.5":
-  version "3.3.5"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-react-apollo/-/typescript-react-apollo-3.3.5.tgz#1ac06a15fcacc4f906793421652a3ab6087962f6"
-  integrity sha512-7kqlkjPrR99Z3iO/sS4waov44DwVPtXTaL70IXACNfcF/RgYAMQwgV1u1iArx6x7bVA//sQtEAMD1qOFMvrkOQ==
-  dependencies:
-    "@graphql-codegen/plugin-helpers" "^2.6.2"
-    "@graphql-codegen/visitor-plugin-common" "2.13.0"
-    auto-bind "~4.0.0"
-    change-case-all "1.0.14"
-    tslib "~2.4.0"
-
 "@graphql-codegen/typescript-resolvers@^2.7.5":
   version "2.7.5"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-resolvers/-/typescript-resolvers-2.7.5.tgz#1149c95701eed07c1cab14d66c1ae1c6ae793c0e"
@@ -785,32 +774,10 @@
     auto-bind "~4.0.0"
     tslib "~2.4.0"
 
-"@graphql-codegen/typescript-type-graphql@^2.3.5":
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-type-graphql/-/typescript-type-graphql-2.3.5.tgz#ee0be612c94184e3dfdb479a286b639ea8e47b69"
-  integrity sha512-15GpsZJ8wep9bD0WAXRGdqcHpMx6SLI68J0yUguFanG9NpB8SbpkG6ukjTvdHvozHG+98r7eZhNudiOWB8BgPQ==
-  dependencies:
-    "@graphql-codegen/plugin-helpers" "^2.6.2"
-    "@graphql-codegen/typescript" "^2.7.5"
-    "@graphql-codegen/visitor-plugin-common" "2.13.0"
-    auto-bind "~4.0.0"
-    tslib "~2.4.0"
-
 "@graphql-codegen/typescript@^2.7.5":
   version "2.7.5"
   resolved "https://registry.npmjs.org/@graphql-codegen/typescript/-/typescript-2.7.5.tgz"
   integrity sha512-NZMViINr0KEH+DgtOE3BDWkdrisX7cz3/+m6M73Sa2cMM1udTTCpLbNqFIHRmGl1UyfwjdZB32YoF/fxshjV/Q==
-  dependencies:
-    "@graphql-codegen/plugin-helpers" "^2.6.2"
-    "@graphql-codegen/schema-ast" "^2.5.1"
-    "@graphql-codegen/visitor-plugin-common" "2.13.0"
-    auto-bind "~4.0.0"
-    tslib "~2.4.0"
-
-"@graphql-codegen/typescript@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript/-/typescript-2.8.0.tgz#c4a20cd88f301bed094b53c982cf85bceda1b78c"
-  integrity sha512-atQ6NFfMmoknJi0QdVSozPugKcgeJB6t1/cVskbhVtX8tAEFFLjl6H23mpz3t35AH6aGWtvx2LCjUSxHI6P6xA==
   dependencies:
     "@graphql-codegen/plugin-helpers" "^2.6.2"
     "@graphql-codegen/schema-ast" "^2.5.1"
