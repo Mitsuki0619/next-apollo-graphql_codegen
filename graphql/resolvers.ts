@@ -1,6 +1,6 @@
-import { Config } from "apollo-server-micro";
+import { Resolvers } from "./__generated__/graphql";
 
-export const resolvers: Config["resolvers"] = {
+export const resolvers: Resolvers = {
   Query: {
     tasks: (_parent, _args, ctx) => {
       return ctx.prisma.task.findMany();
